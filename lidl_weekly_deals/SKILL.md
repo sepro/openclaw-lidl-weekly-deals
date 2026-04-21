@@ -12,7 +12,7 @@ When the user asks about Lidl promotions, weekly deals, or wants healthy meal id
 
 1. Run the scraper to fetch this week's promotions:
    ```
-   python lidl_promotions.py
+   python3 lidl_promotions.py
    ```
    The script prints a JSON array to stdout. Each product has: `name`, `brand`, `category`, `regular_price` (EUR), `discounted_price` (EUR), `quantity`, and `special_conditions`.
 
@@ -25,10 +25,11 @@ When the user asks about Lidl promotions, weekly deals, or wants healthy meal id
 
    Skip or deprioritise: heavily processed foods, sugary snacks, alcohol, confectionery, and ready-meals.
 
-3. List the healthy shortlist clearly — name, discounted price, quantity, and any special conditions (e.g. Lidl Plus required).
+3. **Always:** List the healthy shortlist clearly — name, discounted price, quantity, and any special conditions (e.g. Lidl Plus required).
 
-4. Suggest 3–5 recipes the couple can cook this week using those ingredients. Common pantry staples (olive oil, garlic, onion, canned tomatoes, pasta, rice, spices, stock) may be added freely. For each recipe include:
+4. **Only if requested:** Suggest 3–5 recipes the couple can cook this week using those ingredients. Common pantry staples (olive oil, garlic, onion, canned tomatoes, pasta, rice, spices, stock) may be added freely. For each recipe include:
    - Name and one-sentence description
    - Which promoted ingredients it uses
    - Step-by-step preparation (4–8 steps)
    - Approximate prep and cook time
+
