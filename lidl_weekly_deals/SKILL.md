@@ -5,7 +5,7 @@ metadata:
   openclaw:
     requires:
       bins:
-        - python
+        - python3
 ---
 
 When the user asks about Lidl promotions, weekly deals, or wants healthy meal ideas based on current Lidl offers, do the following:
