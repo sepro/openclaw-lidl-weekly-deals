@@ -71,15 +71,38 @@ def fetch_url(url: str) -> str:
     return raw.decode(charset, errors="replace")
 
 
+# Match the promotions path wherever it appears in the homepage HTML:
+#   - in href attributes as a relative path:  href="/c/nl-BE/aanbiedingen-deze-week/a10082242"
+#   - in href attributes as an absolute URL:  href="https://www.lidl.be/c/nl-BE/aanbiedingen-deze-week/a10082242"
+#   - inside JSON-escaped hydration data:     "url":"https:\u002F\u002Fwww.lidl.be\u002Fc\u002Fnl-BE\u002Faanbiedingen-deze-week\u002Fa10082242"
+#                                       or:   "href":"\/c\/nl-BE\/aanbiedingen-deze-week\/a10082242"
+# We capture only the trailing slug (e.g. a10082242) so we can rebuild a clean URL.
+_PROMO_SLUG_PATTERN = re.compile(
+    r"aanbiedingen-deze-week"      # the page name
+    r"(?:\\u002F|\\/|/)"           # one separator: literal /, escaped \/, or unicode-escaped \u002F
+    r"([a-zA-Z0-9_-]+)"            # the weekly slug, e.g. a10082242
+)
+
+
 def find_promotions_url(homepage_html: str) -> str:
-    """Find the href to /c/nl-BE/aanbiedingen-deze-week/... on the homepage."""
-    match = re.search(
-        r'href="(/c/nl-BE/aanbiedingen-deze-week/[^"]+)"',
-        homepage_html,
-    )
-    if match:
-        path = html.unescape(match.group(1))
-        return "https://www.lidl.be" + path
+    """Find the URL to this week's promotions page on the Lidl.be homepage.
+
+    Lidl rotates the trailing slug (e.g. a10082242 -> a10082243) every week,
+    and ships the homepage as a hybrid of server-rendered HTML and a JSON
+    hydration blob, so the same URL may appear with different escapings. We
+    extract just the slug and rebuild a canonical URL from it.
+    """
+    # Prefer slugs that appear in href="" attributes, as those are real links
+    # rather than e.g. analytics payloads. Fall back to any match if needed.
+    decoded_html = html.unescape(homepage_html)
+
+    for candidate in _PROMO_SLUG_PATTERN.finditer(decoded_html):
+        slug = candidate.group(1)
+        # Sanity check: the slug shape Lidl uses is a letter prefix + digits
+        # (e.g. a10082242). Skip anything that doesn't look like that to avoid
+        # accidentally picking up a category or query-param fragment.
+        if re.fullmatch(r"[a-z]\d{4,}", slug):
+            return f"https://www.lidl.be/c/nl-BE/aanbiedingen-deze-week/{slug}"
 
     raise ValueError(
         "Could not find the weekly promotions link on the Lidl homepage "
