@@ -53,6 +53,15 @@ lidl_weekly_deals/
 └── lidl_promotions.py  # Scraper — fetches and parses lidl.be
 ```
 
+## Weekly JSON via GitHub Actions
+
+The workflow in `.github/workflows/fetch-weekly-deals.yml` runs the scraper every Monday at 03:00 UTC and commits the output to:
+
+- `deals/latest.json`: this week's promotions
+- `deals/YYYY-MM-DD.json`: a dated copy, so a history of promotions builds up over time
+
+This lets tools that can't reach lidl.be directly (for example sandboxed agents) read the deals from GitHub instead. If a scrape fails, the workflow fails and the previous `latest.json` stays in place, so check the date of the newest dated file to know whether `latest.json` is current. You can also start a run by hand from the Actions tab ("Run workflow").
+
 ## Updating
 
 Re-copy the directory after pulling updates:

@@ -1,0 +1,60 @@
+name: Fetch weekly Lidl deals
+
+on:
+  schedule:
+    # Lidl's weekly promotions start on Monday. GitHub runs schedules in UTC
+    # and can start them late, so this runs early (04:00/05:00 Brussels time)
+    # to have the JSON ready well before the Monday morning report.
+    - cron: "0 3 * * 1"
+  # Manual "Run workflow" button, handy for testing or re-running a failed week.
+  workflow_dispatch:
+
+permissions:
+  # Needed to commit the JSON output back to the repository.
+  contents: write
+
+concurrency:
+  # Two overlapping runs would race each other when pushing the commit.
+  group: fetch-weekly-deals
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          # The scraper uses `X | None` type hints, which need Python 3.10+.
+          python-version: "3.12"
+
+      - name: Run the scraper
+        run: |
+          # Name the file after the Belgian date, not the UTC date of the runner.
+          run_date=$(TZ=Europe/Brussels date +%Y-%m-%d)
+          mkdir -p deals
+
+          # Write to a temp file first so a failed scrape never overwrites the
+          # last good latest.json. The scraper exits non-zero on any failure,
+          # which fails this step and skips the commit below.
+          python lidl_weekly_deals/lidl_promotions.py > deals/tmp.json
+
+          mv deals/tmp.json "deals/${run_date}.json"
+          cp "deals/${run_date}.json" deals/latest.json
+          echo "RUN_DATE=${run_date}" >> "$GITHUB_ENV"
+
+      - name: Commit the results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add deals/
+          # Re-running on the same day with identical deals produces no diff.
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Weekly Lidl deals for ${RUN_DATE}"
+          git push
