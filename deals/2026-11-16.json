@@ -1,0 +1,932 @@
+[
+  {
+    "id": "10032727",
+    "name": "Uien XXL",
+    "brand": null,
+    "category": "Groenten en fruit",
+    "regular_price": 4.48,
+    "discounted_price": 2.99,
+    "quantity": "5 kg",
+    "special_conditions": null
+  },
+  {
+    "id": "10032398",
+    "name": "Broccoli",
+    "brand": null,
+    "category": "Groenten en fruit",
+    "regular_price": 1.29,
+    "discounted_price": 0.99,
+    "quantity": "500 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032729",
+    "name": "Clementijnen",
+    "brand": null,
+    "category": "Groenten en fruit",
+    "regular_price": 2.62,
+    "discounted_price": 1.75,
+    "quantity": "750 g",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032731",
+    "name": "Early desire peren",
+    "brand": null,
+    "category": "Groenten en fruit",
+    "regular_price": 2.69,
+    "discounted_price": 1.79,
+    "quantity": "800 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032733",
+    "name": "Kaki's",
+    "brand": null,
+    "category": "Groenten en fruit",
+    "regular_price": 2.99,
+    "discounted_price": 1.99,
+    "quantity": "1 kg",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032735",
+    "name": "Paprikamix",
+    "brand": null,
+    "category": "Groenten en fruit",
+    "regular_price": 2.29,
+    "discounted_price": 1.59,
+    "quantity": "500 g",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032737",
+    "name": "Vastkokende aardappelen XXL",
+    "brand": null,
+    "category": "Groenten en fruit",
+    "regular_price": 8.98,
+    "discounted_price": 5.99,
+    "quantity": "5 kg",
+    "special_conditions": null
+  },
+  {
+    "id": "10032795",
+    "name": "Jonagoldappelen",
+    "brand": null,
+    "category": "Groenten en fruit",
+    "regular_price": null,
+    "discounted_price": 2.19,
+    "quantity": "1 kg",
+    "special_conditions": null
+  },
+  {
+    "id": "10032755",
+    "name": "Heekfilet gemarineerd",
+    "brand": null,
+    "category": "Vis",
+    "regular_price": null,
+    "discounted_price": 4.49,
+    "quantity": "ca. 300 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032757",
+    "name": "Zeeuwse mosselen super",
+    "brand": null,
+    "category": "Vis",
+    "regular_price": null,
+    "discounted_price": 2.99,
+    "quantity": "1 kg",
+    "special_conditions": null
+  },
+  {
+    "id": "10032759",
+    "name": "Pangasiusfilet XXL",
+    "brand": null,
+    "category": "Vis",
+    "regular_price": 7.98,
+    "discounted_price": 6.99,
+    "quantity": "700 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032761",
+    "name": "NAUTICA Surimistaafjes",
+    "brand": "NAUTICA",
+    "category": "Vis",
+    "regular_price": 1.75,
+    "discounted_price": 1.39,
+    "quantity": "400 g",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032763",
+    "name": "Zalmfilet",
+    "brand": null,
+    "category": "Vis",
+    "regular_price": 11.99,
+    "discounted_price": 7.99,
+    "quantity": "450 g",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032739",
+    "name": "Varkenshaasje natuur",
+    "brand": null,
+    "category": "Vlees",
+    "regular_price": null,
+    "discounted_price": 4.99,
+    "quantity": "ca. 500 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032741",
+    "name": "Varken & rund bereid gehakt",
+    "brand": null,
+    "category": "Vlees",
+    "regular_price": 3.79,
+    "discounted_price": 2.49,
+    "quantity": "500 g",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032743",
+    "name": "Kippenchipolata XXL",
+    "brand": null,
+    "category": "Vlees",
+    "regular_price": 9.58,
+    "discounted_price": 7.49,
+    "quantity": "1 kg",
+    "special_conditions": null
+  },
+  {
+    "id": "10032745",
+    "name": "VEMONDO Vegan biotofu",
+    "brand": "VEMONDO",
+    "category": "Vlees",
+    "regular_price": 2.78,
+    "discounted_price": 1.99,
+    "quantity": "2 x 400 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032747",
+    "name": "Minikalkoensteaks XXL",
+    "brand": null,
+    "category": "Vlees",
+    "regular_price": 11.98,
+    "discounted_price": 7.99,
+    "quantity": "800 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032749",
+    "name": "Kalkoenbout",
+    "brand": null,
+    "category": "Vlees",
+    "regular_price": null,
+    "discounted_price": 4.99,
+    "quantity": "/kg",
+    "special_conditions": null
+  },
+  {
+    "id": "10032751",
+    "name": "Deluxe Parelhoenfilet",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 7.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032753",
+    "name": "Kipschnitzel ham-kaas",
+    "brand": null,
+    "category": "Vlees",
+    "regular_price": 3.19,
+    "discounted_price": 1.99,
+    "quantity": "250 g",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032765",
+    "name": "Pistolet wit",
+    "brand": null,
+    "category": "Bakkerij",
+    "regular_price": 2.34,
+    "discounted_price": 1.49,
+    "quantity": "6 x 80 g",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032767",
+    "name": "Pizza BBQ chicken",
+    "brand": null,
+    "category": "Bakkerij",
+    "regular_price": 1.99,
+    "discounted_price": 1.49,
+    "quantity": "170 g",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032769",
+    "name": "Chocoladebroodje XXL",
+    "brand": null,
+    "category": "Bakkerij",
+    "regular_price": 3.96,
+    "discounted_price": 2.99,
+    "quantity": "4 x 130 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032771",
+    "name": "Boerenbrood XXL",
+    "brand": null,
+    "category": "Bakkerij",
+    "regular_price": 2.24,
+    "discounted_price": 1.79,
+    "quantity": "1 kg",
+    "special_conditions": null
+  },
+  {
+    "id": "10032773",
+    "name": "DELUXE Desembrood meergranen",
+    "brand": "DELUXE",
+    "category": "Bakkerij",
+    "regular_price": 2.29,
+    "discounted_price": 1.59,
+    "quantity": "500 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032775",
+    "name": "SNACK DAY Chips temptations",
+    "brand": "SNACK DAY",
+    "category": "Promo",
+    "regular_price": 2.98,
+    "discounted_price": 1.49,
+    "quantity": "2 x 150 g",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032797",
+    "name": "DANONE Danette",
+    "brand": "DANONE",
+    "category": "Promo",
+    "regular_price": 7.96,
+    "discounted_price": 3.98,
+    "quantity": "4 x 4 x 117 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032799",
+    "name": "LAY'S Chips",
+    "brand": "LAY'S",
+    "category": "Promo",
+    "regular_price": 3.99,
+    "discounted_price": 2.66,
+    "quantity": "3 x 200 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032801",
+    "name": "DOUWE EGBERTS Koffie",
+    "brand": "DOUWE EGBERTS",
+    "category": "Promo",
+    "regular_price": 8.98,
+    "discounted_price": 6.74,
+    "quantity": "2 x 222 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032829",
+    "name": "FAVORINA Iced gems",
+    "brand": "FAVORINA",
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 2.59,
+    "quantity": "500 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032831",
+    "name": "LU ABC-koekjes",
+    "brand": "LU",
+    "category": "Food Thema A",
+    "regular_price": 13.98,
+    "discounted_price": 6.99,
+    "quantity": "2 x 1 kg",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032833",
+    "name": "FAVORINA Ministollen",
+    "brand": "FAVORINA",
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 4.99,
+    "quantity": "350 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032835",
+    "name": "FAVORINA Peperkoekringen met chocolade",
+    "brand": "FAVORINA",
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 3.99,
+    "quantity": "500 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032657",
+    "name": "FAVORINA Chocoladebonbons",
+    "brand": "FAVORINA",
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 2.49,
+    "quantity": "200 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032837",
+    "name": "FAVORINA Panettone classico",
+    "brand": "FAVORINA",
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 5.49,
+    "quantity": "1 kg",
+    "special_conditions": null
+  },
+  {
+    "id": "10032110",
+    "name": "Deense boterkoekjes",
+    "brand": null,
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 4.79,
+    "quantity": "750 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032839",
+    "name": "FAVORINA Marsepein in fruitvorm",
+    "brand": "FAVORINA",
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 1.99,
+    "quantity": "150 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032114",
+    "name": "FAVORINA Chocoladefiguren",
+    "brand": "FAVORINA",
+    "category": "Food Thema A",
+    "regular_price": 4.98,
+    "discounted_price": 2.49,
+    "quantity": "2 x 250 g",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032841",
+    "name": "FAVORINA Marsepeinblok",
+    "brand": "FAVORINA",
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 2.69,
+    "quantity": "250 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032382",
+    "name": "FAVORINA Sinterklaasjes praliné",
+    "brand": "FAVORINA",
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 2.79,
+    "quantity": "200 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032843",
+    "name": "LOTUS Biscoff mini speculoos",
+    "brand": "LOTUS",
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 2.69,
+    "quantity": "150 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032845",
+    "name": "FAVORINA Grote speculoos",
+    "brand": "FAVORINA",
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 2.99,
+    "quantity": "2 x 225 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032847",
+    "name": "LIBEERT Chocoladesintfiguur met paard",
+    "brand": "LIBEERT",
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 5.79,
+    "quantity": "155 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032849",
+    "name": "KINDER Surprise maxi",
+    "brand": "KINDER",
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 7.29,
+    "quantity": "100 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032851",
+    "name": "FAVORINA Chocoladefiguren",
+    "brand": "FAVORINA",
+    "category": "Food Thema A",
+    "regular_price": null,
+    "discounted_price": 2.99,
+    "quantity": "150 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032853",
+    "name": "A Minha Padaria Mini toast",
+    "brand": "A Minha Padaria",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 2.49,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032855",
+    "name": "Milbona Geitenkaas vijgen, honing",
+    "brand": "Milbona",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 1.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032857",
+    "name": "Deluxe MSC Mantel- schelpen",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 5.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032859",
+    "name": "Deluxe Tête de moine",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 13.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032861",
+    "name": "Solevita Bruisend appelsap",
+    "brand": "Solevita",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 1.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032863",
+    "name": "Deluxe Bladerdeeg canapés lepels, taartvorm",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 2.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032865",
+    "name": "Deluxe Gekonfijt fruit citroen, orange",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 2.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032663",
+    "name": "Deluxe Prosciutto di Parma",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 5.59,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032867",
+    "name": "Deluxe Acaciahoning met honingraat",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 7.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032869",
+    "name": "Deluxe ASC/MSC aperoschelpjes",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 6.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032871",
+    "name": "Deluxe Chocolade giftbox puur, melk",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 4.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032873",
+    "name": "Deluxe Dessert twinpack mango, framboos",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 1.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032875",
+    "name": "Deluxe MSC Garnaal- kroketten voor de oven",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 6.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032877",
+    "name": "Chef Select Mini bruschetta",
+    "brand": "Chef Select",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 5.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032879",
+    "name": "Deluxe Salami truffel & parmezaan",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 2.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032881",
+    "name": "Deluxe Escargots in kruidenboter",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 4.35,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032883",
+    "name": "Deluxe Kruidenmolen 5 varianten",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 3.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032777",
+    "name": "NUTELLA Hazelnootpasta",
+    "brand": "NUTELLA",
+    "category": "Actie op is op ",
+    "regular_price": null,
+    "discounted_price": 4.79,
+    "quantity": "750 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032779",
+    "name": "BOUNTY, MARS, MILKY WAY , SNICKERS, TWIX Chocoladereep",
+    "brand": "BOUNTY, MARS, MILKY WAY , SNICKERS, TWIX",
+    "category": "Actie op is op ",
+    "regular_price": 5.18,
+    "discounted_price": 3.89,
+    "quantity": "2 x 182,5 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032781",
+    "name": "MONSTER Energiedrank",
+    "brand": "MONSTER",
+    "category": "Actie op is op ",
+    "regular_price": 11.58,
+    "discounted_price": 9.99,
+    "quantity": "2 x 4 x 50 cl",
+    "special_conditions": null
+  },
+  {
+    "id": "10032783",
+    "name": "LU Koeken",
+    "brand": "LU",
+    "category": "Actie op is op ",
+    "regular_price": null,
+    "discounted_price": 5.19,
+    "quantity": "378 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032785",
+    "name": "ARIZONA Iced tea",
+    "brand": "ARIZONA",
+    "category": "Actie op is op ",
+    "regular_price": null,
+    "discounted_price": 1.99,
+    "quantity": "1,75 l",
+    "special_conditions": null
+  },
+  {
+    "id": "10032787",
+    "name": "HARIBO Snoep",
+    "brand": "HARIBO",
+    "category": "Actie op is op ",
+    "regular_price": null,
+    "discounted_price": 2.49,
+    "quantity": "185 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032789",
+    "name": "FORMIL Wasmiddel tropical harmony",
+    "brand": "FORMIL",
+    "category": "Actie op is op ",
+    "regular_price": null,
+    "discounted_price": 11.99,
+    "quantity": "100 wasbeurten",
+    "special_conditions": null
+  },
+  {
+    "id": "10032791",
+    "name": "TWIST & DRINK Limonade",
+    "brand": "TWIST & DRINK",
+    "category": "Actie op is op ",
+    "regular_price": null,
+    "discounted_price": 2.99,
+    "quantity": "4 x 20 cl",
+    "special_conditions": null
+  },
+  {
+    "id": "10032793",
+    "name": "Deluxe Fijne koekjes 4 varianten",
+    "brand": "Deluxe",
+    "category": "Kerst",
+    "regular_price": null,
+    "discounted_price": 2.49,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032803",
+    "name": "KWATTA Chocoladepasta puur",
+    "brand": "KWATTA",
+    "category": "Actie op is op ",
+    "regular_price": 11.58,
+    "discounted_price": 8.69,
+    "quantity": "2 x 600 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032805",
+    "name": "SCHWEPPES Indian tonic of agrumes",
+    "brand": "SCHWEPPES",
+    "category": "Actie op is op ",
+    "regular_price": 15.98,
+    "discounted_price": 7.99,
+    "quantity": "2 x 6 x 50 cl",
+    "special_conditions": null
+  },
+  {
+    "id": "10032807",
+    "name": "KELLOGG'S Pokémon-repen",
+    "brand": "KELLOGG'S",
+    "category": "Actie op is op ",
+    "regular_price": 5.98,
+    "discounted_price": 4.49,
+    "quantity": "2 x 4 x 25 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032809",
+    "name": "DASH Caps 3-in-1",
+    "brand": "DASH",
+    "category": "Actie op is op ",
+    "regular_price": 59.98,
+    "discounted_price": 29.99,
+    "quantity": null,
+    "special_conditions": null
+  },
+  {
+    "id": "10032811",
+    "name": "PRINGLES Chips",
+    "brand": "PRINGLES",
+    "category": "Actie op is op ",
+    "regular_price": 4.98,
+    "discounted_price": 3.74,
+    "quantity": "2 x 150 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032813",
+    "name": "FINISH Quantum-tabs",
+    "brand": "FINISH",
+    "category": "Actie op is op ",
+    "regular_price": null,
+    "discounted_price": 12.99,
+    "quantity": "2 x 31 tabs",
+    "special_conditions": null
+  },
+  {
+    "id": "10032815",
+    "name": "FLORALYS Keukenrol met motiefprint XXL",
+    "brand": "FLORALYS",
+    "category": "Actie op is op ",
+    "regular_price": null,
+    "discounted_price": 5.49,
+    "quantity": "6 stuks",
+    "special_conditions": null
+  },
+  {
+    "id": "10032817",
+    "name": "DELI DI PAOLO Piccoli",
+    "brand": "DELI DI PAOLO",
+    "category": "Actie op is op ",
+    "regular_price": null,
+    "discounted_price": 2.49,
+    "quantity": "200 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032819",
+    "name": "LOTUS Tartélice",
+    "brand": "LOTUS",
+    "category": "Actie op is op ",
+    "regular_price": null,
+    "discounted_price": 3.69,
+    "quantity": "345 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032821",
+    "name": "GRIMBERGEN Abdijbier*",
+    "brand": "GRIMBERGEN",
+    "category": "Actie op is op ",
+    "regular_price": null,
+    "discounted_price": 8.69,
+    "quantity": "12 x 33 cl",
+    "special_conditions": null
+  },
+  {
+    "id": "10032823",
+    "name": "BAMBIX Bioknijpfruit, bio bear snacks of drinkpapje",
+    "brand": "BAMBIX",
+    "category": "Actie op is op ",
+    "regular_price": 4.17,
+    "discounted_price": 2.78,
+    "quantity": "3 x 30 g",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032825",
+    "name": "Koeken",
+    "brand": null,
+    "category": "Actie op is op ",
+    "regular_price": null,
+    "discounted_price": 2.09,
+    "quantity": "180 g",
+    "special_conditions": null
+  },
+  {
+    "id": "10032827",
+    "name": "CORONA Bier*",
+    "brand": "CORONA",
+    "category": "Actie op is op ",
+    "regular_price": null,
+    "discounted_price": 13.99,
+    "quantity": "20 x 25 cl",
+    "special_conditions": null
+  },
+  {
+    "id": "10032895",
+    "name": "FUZE TEA Frisdrank",
+    "brand": "FUZE TEA",
+    "category": "Actie op is op ",
+    "regular_price": 4.38,
+    "discounted_price": 2.19,
+    "quantity": "2 x 1,25 l",
+    "special_conditions": "Met je Lidl Plus-app"
+  },
+  {
+    "id": "10032885",
+    "name": "Kalanchoë in glazen vaas",
+    "brand": null,
+    "category": "Bloemen & planten",
+    "regular_price": null,
+    "discounted_price": 2.99,
+    "quantity": "per stuk",
+    "special_conditions": null
+  },
+  {
+    "id": "10032887",
+    "name": "Bromeliamix",
+    "brand": null,
+    "category": "Bloemen & planten",
+    "regular_price": null,
+    "discounted_price": 2.99,
+    "quantity": "per stuk",
+    "special_conditions": null
+  },
+  {
+    "id": "10032889",
+    "name": "Kerstster",
+    "brand": null,
+    "category": "Bloemen & planten",
+    "regular_price": null,
+    "discounted_price": 2.99,
+    "quantity": "per stuk",
+    "special_conditions": null
+  },
+  {
+    "id": "10032891",
+    "name": "Kerstkeramiek",
+    "brand": null,
+    "category": "Bloemen & planten",
+    "regular_price": null,
+    "discounted_price": 2.49,
+    "quantity": "per stuk",
+    "special_conditions": null
+  },
+  {
+    "id": "10032893",
+    "name": "Alpenviooltjes",
+    "brand": null,
+    "category": "Bloemen & planten",
+    "regular_price": null,
+    "discounted_price": 1.49,
+    "quantity": "per stuk",
+    "special_conditions": null
+  },
+  {
+    "id": "10032935",
+    "name": "Amaryllis in glas",
+    "brand": null,
+    "category": "Bloemen & planten",
+    "regular_price": null,
+    "discounted_price": 6.99,
+    "quantity": "per stuk",
+    "special_conditions": null
+  },
+  {
+    "id": "10032937",
+    "name": "Hyacinten in vogelschaal",
+    "brand": null,
+    "category": "Bloemen & planten",
+    "regular_price": null,
+    "discounted_price": 7.99,
+    "quantity": "per stuk",
+    "special_conditions": null
+  }
+]
